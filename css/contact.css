@@ -1,0 +1,63 @@
+*{
+margin:0;
+border:0;
+}
+
+body {
+  font-family:monospace;
+  width: 100%;
+  height: 100%;
+  color: rgba(219, 172, 182, 0.763);
+  background-color: rgb(72, 72, 60);
+  font-size: 1rem;
+}
+
+.first-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font: 12rem;
+}
+
+header {
+  background-color: rgb(110, 0, 82);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  font-size: 16px;
+  font-variant-numeric: normal;
+}
+
+ul {
+
+  display: flex;
+  display: right;
+  gap:10rem;
+}
+
+li {
+  padding: 3rem;
+  list-style: none;
+}
+
+a:hover{
+  background-color: rgba(144, 30, 30, 0.822);
+}
+
+a {
+  text-decoration: turquoise;
+  color: rgb(10, 147, 118);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+h1 { 
+  text-align: center;
+  padding-top: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
